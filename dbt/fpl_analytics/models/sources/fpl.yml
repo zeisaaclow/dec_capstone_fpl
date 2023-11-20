@@ -1,0 +1,168 @@
+version: 2
+sources:
+  - name: raw
+    tables:
+      - name: bootstrap_static
+        description: ''
+        columns:
+          - name: _airbyte_raw_id
+            description: ''
+          - name: _airbyte_extracted_at
+            description: ''
+          - name: _airbyte_meta
+            description: ''
+          - name: element_stats
+            description: ''
+          - name: teams
+            description: ''
+          - name: element_types
+            description: ''
+          - name: game_settings
+            description: ''
+          - name: total_players
+            description: ''
+          - name: events
+            description: ''
+          - name: phases
+            description: ''
+      - name: events
+        description: ''
+        columns:
+          - name: _airbyte_raw_id
+            description: ''
+          - name: _airbyte_extracted_at
+            description: ''
+          - name: _airbyte_meta
+            description: ''
+          - name: data_checked
+            description: ''
+          - name: cup_leagues_created
+            description: ''
+          - name: deadline_time_game_offset
+            description: ''
+          - name: average_entry_score
+            description: ''
+          - name: is_previous
+            description: ''
+          - name: most_selected
+            description: ''
+          - name: most_transferred_in
+            description: ''
+          - name: finished
+            description: ''
+          - name: most_captained
+            description: ''
+          - name: chip_plays
+            description: ''
+          - name: top_element
+            description: ''
+          - name: is_next
+            description: ''
+          - name: most_vice_captained
+            description: ''
+          - name: deadline_time_epoch
+            description: ''
+          - name: h2h_ko_matches_created
+            description: ''
+          - name: name
+            description: ''
+          - name: deadline_time
+            description: ''
+          - name: transfers_made
+            description: ''
+          - name: id
+            description: ''
+          - name: is_current
+            description: ''
+          - name: highest_scoring_entry
+            description: ''
+          - name: highest_score
+            description: ''
+      - name: teams
+        description: "Description of the TEAMS table"
+        columns:
+          - name: "_airbyte_raw_id"
+            description: "Description of _airbyte_raw_id"
+          - name: "_airbyte_extracted_at"
+            description: "Description of _airbyte_extracted_at"
+          - name: "_airbyte_meta"
+            description: "Description of _airbyte_meta"
+          - name: "strength_defence_away"
+            description: "Description of strength_defence_away"
+          - name: "code"
+            description: "Description of code"
+          - name: "strength"
+            description: "Description of strength"
+          - name: "unavailable"
+            description: "Description of unavailable"
+          - name: "strength_overall_away"
+            description: "Description of strength_overall_away"
+          - name: "draw"
+            description: "Description of draw"
+          - name: "played"
+            description: "Description of played"
+          - name: "pulse_id"
+            description: "Description of pulse_id"
+          - name: "strength_attack_away"
+            description: "Description of strength_attack_away"
+          - name: "points"
+            description: "Description of points"
+          - name: "loss"
+            description: "Description of loss"
+          - name: "strength_defence_home"
+            description: "Description of strength_defence_home"
+          - name: "strength_attack_home"
+            description: "Description of strength_attack_home"
+          - name: "strength_overall_home"
+            description: "Description of strength_overall_home"
+          - name: "name"
+            description: "Description of name"
+          - name: "short_name"
+            description: "Description of short_name"
+          - name: "id"
+            description: "Description of id"
+          - name: "position"
+            description: "Description of position"
+          - name: "win"
+            description: "Description of win"
+      - name: fixtures
+        description: "Description of the FIXTURES table"
+        columns:
+          - name: "_airbyte_ab_id"
+            description: "Description of _airbyte_ab_id"
+          - name: "_airbyte_emitted_at"
+            description: "Description of _airbyte_emitted_at"
+          - name: "code"
+            description: "Description of code"
+          - name: "provisional_start_time"
+            description: "Description of provisional_start_time"
+          - name: "minutes"
+            description: "Description of minutes"
+          - name: "kickoff_time"
+            description: "Description of kickoff_time"
+          - name: "team_h"
+            description: "Description of team_h"
+          - name: "started"
+            description: "Description of started"
+          - name: "finished"
+            description: "Description of finished"
+          - name: "team_a_difficulty"
+            description: "Description of team_a_difficulty"
+          - name: "pulse_id"
+            description: "Description of pulse_id"
+          - name: "finished_provisional"
+            description: "Description of finished_provisional"
+          - name: "team_a_score"
+            description: "Description of team_a_score"
+          - name: "team_a"
+            description: "Description of team_a"
+          - name: "stats"
+            description: "Description of stats"
+          - name: "team_h_difficulty"
+            description: "Description of team_h_difficulty"
+          - name: "id"
+            description: "Description of id"
+          - name: "event"
+            description: "Description of event"
+          - name: "team_h_score"
+            description: "Description of team_h_score"

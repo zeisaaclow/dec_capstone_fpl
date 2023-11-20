@@ -1,0 +1,13 @@
+fpl_analytics:
+  outputs:
+    dev:
+      account: "{{env_var('DBT_ENV_SECRET_ACCOUNT')}}" #cb36378.ap-southeast-2
+      database: FPL
+      password: "{{env_var('DBT_ENV_SECRET_PASSWORD')}}"
+      role: DBT_RW
+      schema: dbt
+      threads: 1
+      type: snowflake
+      user: "{{env_var('DBT_ENV_SECRET_USER')}}"
+      warehouse: ETL
+  target: dev
